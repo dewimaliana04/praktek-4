@@ -1,8 +1,8 @@
 language: php
 env:
   global:
-    - 'FTP_USER=malianadewi'
-    - 'FTP_PASS=dewicantik'
+    - 'FTP_USER=diasmika'
+    - 'FTP_PASS=yaanalahpokoke'
 
 script:
   - "curl -T koneksi.php -u $FTP_USER:$FTP_PASS ftp://files.000webhost.com/public_html/"
