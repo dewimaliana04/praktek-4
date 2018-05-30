@@ -14,7 +14,7 @@ if($koneksi->connect_error) {
 //echo "NAMA BARANG : " . $_POST["namaBarang"];
 //echo "STOK : " . $_POST["stok"];
 
-$query = "insert into stok_barang(kode, nama_barang, stok) " .
+$query = "insert into stok_barang(kode, Nama_barang, jumlah) " .
         "values(" . $_POST["kode"] . ",'" . 
         $_POST["namaBarang"] . "'," . $_POST["stok"] . ")";
 
